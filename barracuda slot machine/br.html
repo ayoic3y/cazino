@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./br.css">
+    <title>Document</title>
+</head>
+<body>
+          <div class="d">
+              <span class="depspan">Внести депозит: ($)</span>
+             <input type="text" class="dep" value="" oninput="deposit(this)">
+             <button class="confirm">Подтвердить</button>
+          </div>
+          
+
+           <div class="counts">
+            <div class="gg">
+             <span class="betspan">Ставка: ($)</span>
+             <input type="text" class="bet" oninput="makebet(this)">
+           </div>
+           <div class="gg">
+             <span>Выйгрыш: ($)</span>
+             <input type="text" class="winningz">
+           </div>
+           <div class="gg">
+             <span class="balspan">Баланс: ($)</span>
+             <input type="text" class="balance">
+           </div>
+         </div>
+
+        <div class="machine">
+          <div class="slot">
+            <div><img src="./paltor.png" alt="" id="first"></div>
+            <div><img src="./ilyas.png" alt=""  id="second"></div>
+            <div><img src="./zolo.png" alt=""  id="third"></div>
+          </div>
+        </div>
+        <span class="alert"></span>  
+
+        <div class="rychag">
+            <div class="redbutton"></div>
+       </div>
+       
+       <button class="cashout">Вывести</button>
+
+     <script src="./br.js"></script>
+     <script src="https://kit.fontawesome.com/09e0dbc4db.js" crossorigin="anonymous"></script>
+</body>
+</html>
